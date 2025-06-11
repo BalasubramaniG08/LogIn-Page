@@ -1,4 +1,4 @@
-function loginCheck() {
+function login() {
   let username = document.getElementById("un").children[0].value;
   let password = document.getElementById("pw").children[0].value;
 
@@ -8,7 +8,6 @@ function loginCheck() {
   }
 
   if (username === "Bala" && password === "8888") {
-    // alert("Login successful!");
     return true;
   } else {
     alert("Invalid username or password.");
@@ -17,7 +16,7 @@ function loginCheck() {
 }
 
 document.getElementById("ln").children[0].onclick = function (e) {
-  if (!loginCheck()) {
-    e.preventDefault(); // Block going to index2.html
+  if (!login()) {
+    e.preventDefault();
   }
 };
