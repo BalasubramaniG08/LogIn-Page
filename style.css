@@ -48,7 +48,9 @@ html{
         rgb(50, 96, 181) 0%,
         rgb(68, 52, 132) 100%
       );
-    padding: 350px;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 200px;
 }
 
 .pass{
@@ -73,5 +75,9 @@ button a{
 .log h2{
     margin-bottom: 30px;
     font-weight: 600;
+    font-size: 25px;
+    
 }
+
+
 
