@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+            /* border: 1px solid blue; */
+    box-sizing: border-box;
+    text-wrap: pretty;
+}
+
+input{
+    border-radius: 7px;
+    border: none;
+    padding: 1.5px;
+    text-align: center;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+.dflex-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.screenSize{
+    max-width: 435px;
+    margin: auto;   
+}
+
+form{
+    padding: 200px;
+}
+
+.border{
+    border: 1px solid black;
+    padding: 40px;
+    /* background-color: rgb(122, 143, 86); */
+    border-radius: 10px;
+    background-image: radial-gradient(
+        circle,
+        rgb(119, 152, 61) 0%,
+        rgb(96, 118, 59) 100%
+      );
+      border: none;
+      margin-top: 120px;
+}
+
+.num1 label{
+    margin-right: 22px;
+}
+
+.num1,
+.num2,
+.result{
+    padding-bottom: 20px;
+}
+
+.head{
+    padding-bottom: 30px;
+}
+
+.num2 label{
+    margin-right: 19px;
+}
+
+.operator {
+    margin-right: 138px;
+}
+
+#operator{
+    margin-left: 26px;
+    border-radius: 70px;
+    border: none;    
+}
+
+#calculate{
+    margin: 40px;
+    padding: 6px 15px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color:rgb(188, 201, 166);
+
+}
+
+.result label{
+    margin-right:42px;
+}
+
+
+  
