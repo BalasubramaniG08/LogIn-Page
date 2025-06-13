@@ -1,22 +1,16 @@
-function login() {
-  let username = document.getElementById("un").children[0].value;
-  let password = document.getElementById("pw").children[0].value;
+function login()
+ {
+  let user = document.getElementById("un").value;
+  let pass = document.getElementById("pw").value;
 
-  if (username === "" || password === "") {
-    alert("Enter the both fields");
-    return false;
+  if(user === "Bala" && pass === "8888"){
+    document.getElementById("bn");
+    window.location.href="./index1.html";
   }
-
-  if (username === "Bala" && password === "8888") {
-    return true;
+  else if (user === "" || pass === "") {
+    alert("Enter the both field");
   } else {
-    alert("Invalid username or password.");
-    return false;
+    alert("Invalid password or username");
   }
-}
 
-document.getElementById("ln").children[0].onclick = function (e) {
-  if (!login()) {
-    e.preventDefault();
-  }
-};
+ }
